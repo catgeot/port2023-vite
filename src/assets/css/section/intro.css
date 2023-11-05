@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column; 
-    position: relative;   
+    position: relative;  
 }
 .intro_text .text {
     font-size: 2.5vw;
