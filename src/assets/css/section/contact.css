@@ -1,12 +1,13 @@
 #contact {
-    height: 100vh;
+    height: 100vh;  
 }
 .contact_inner {
     width: 100%;
     height: 100%;
     padding: 16px;
+    display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
 }
 .contact_title {
@@ -40,6 +41,9 @@
     transition: all 0.3s;
     cursor: all-scroll;    
 }
+.contact_lines {
+    width: 100%;
+}
 .contact_lines .line {
     display: none;
     width: 100%;
@@ -48,6 +52,7 @@
     margin-bottom: 0.5vw;
 }
 .contact_lines.bottom .line {
+    width: 100%;
     margin-top: 0.5vw;
     margin-bottom: 0;
     display: block;    
@@ -106,5 +111,8 @@
         font-size: 20px;
         padding: 0 16px;
         word-break: break-all;
+    }
+    .contact_inner {        
+        justify-content: center;        
     }
 }
