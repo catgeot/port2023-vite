@@ -15,6 +15,7 @@
 깊이 배우기 보다는 다양한 방법을 사용하여 흐름과 감각을 익히기 위한 튜토리얼입니다. 
 
 ## 완성작 보기 
+<<<<<<< HEAD
 미리보기 : [https://catgeot-vite.netlify.app/](https://catgeot-vite.netlify.app/)
 
 ## 사용 스택
